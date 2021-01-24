@@ -23,6 +23,4 @@ void quicksort(sort_data_t *data, ptrdiff_t lo, ptrdiff_t hi) {
     }
 }
 
-void sort_quick(sort_data_t *data, size_t length) {
-    quicksort(data, 0, length - 1);
-}
+void sort_quick(sort_data_t *data, size_t length) { quicksort(data, 0, length - 1); }

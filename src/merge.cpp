@@ -3,8 +3,7 @@
 #include <algorithm>
 #include <vector>
 
-void merge(sort_data_t *a, size_t i_begin, size_t i_middle, size_t i_end,
-           sort_data_t *b) {
+void merge(sort_data_t *a, size_t i_begin, size_t i_middle, size_t i_end, sort_data_t *b) {
     size_t i = i_begin, j = i_middle;
 
     for (size_t k = i_begin; k < i_end; ++k) {
