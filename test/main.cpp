@@ -40,7 +40,7 @@ int test_sort_function(std::vector<sort_data_t> &working_vector,
 
 int main() {
     int res = 0;
-    const size_t Ns[] = {10, 100, 1000, 10000};
+    const size_t Ns[] = {10, 100, 1000, 10000, 20000};
 
     for (auto &N : Ns) {
         std::vector<sort_data_t> source_vector(N, 0), working_vector(N, 0),
