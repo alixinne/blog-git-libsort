@@ -7,7 +7,7 @@ void sort_insertion(sort_data_t *data, size_t length) {
 
   while (i < length) {
     size_t j = i;
-    while (j > 0 && data[j - 1] > data[j]) {
+    while (j > 0 && data[j - 1] < data[j]) {
       std::swap(data[j], data[j - 1]);
       j--;
     }
