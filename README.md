@@ -1,6 +1,6 @@
 # blog-git-libsort
 
-This repository contains some sample code suitable for learning how to use the `bisect` feature of Git. See the relevant blog post for more details: https://vtavernier.github.io/posts/git-is-your-friend-part-3/.
+This repository contains some sample code suitable for learning how to use the `bisect` feature of Git. See the relevant blog post for more details: https://alixinne.github.io/posts/git-is-your-friend-part-3/.
 
 ## Usage
 
@@ -14,4 +14,4 @@ Run the tests with:
 
 ## Author
 
-Vincent Tavernier <vince.tavernier@gmail.com>
+Alixinne <alixinne@pm.me>
